@@ -1,0 +1,1009 @@
+.Rectangle2{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(79, 64, 51, 0.9) 0%, #221A13 99.99%, #211912 100%);
+    
+}
+
+.Group9{
+    width: 164px;
+    height: 164px;
+    margin-left: 5.65vw;
+    background-image:url("../../../public/assets/Logo\ 1.png") ;
+}
+/* 1700px=100vw(0.0588)  790px=1==100vh(0.1265)*/
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.NavBarEnd{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.53vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 4vw;
+}
+
+.dropdownmenu{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.4vw;
+    margin-top: 0.2vh;
+    width: 5vw;
+    background: linear-gradient(270deg, rgba(79, 64, 51, 0.9) 0%, #221A13 99.99%, #211912 100%);
+    transition: 2s;
+}
+#Productsh:hover .dropdownmenu{
+    display: flex;
+}
+.ddmi{
+    text-decoration: none;
+    color: rgba(230, 213, 206, 1);
+    
+    padding-left: 1.5vw;
+    margin-top:1vh ;
+}
+.ddmi:hover{
+    font-weight: bolder;
+    color: ;
+}
+.links{
+    text-decoration: none;
+    color: rgba(230, 213, 206, 1);
+}
+.Projects, .AboutUs, .ContactUs {
+    width: 5.58vw;
+    height: 2.53vh;
+    font-family: Work Sans;
+    font-size: 1.06vw;
+    font-weight: 400;
+    line-height: 2.53vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(230, 213, 206, 1);
+    padding: 0.47vw;
+    transition: 0.1s;
+}
+
+.Projects:hover, .AboutUs:hover, .ContactUs:hover,.ReadMore:hover{
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.Login{
+    background: linear-gradient(90deg, #C7B1A9 0%, #FFFFFF 100%);
+    border: none;
+    border-radius: 0.25vw;
+    width: 7vw;
+    height: 4vh;
+    top: 27px;
+    left: 1213px;
+    border-radius: 0.25vw;   box-shadow: 0.25vw 0.25vw 0.25vw 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25vw 0.25vw 0.25vw 0 rgba(0, 0, 0, 0.25);
+    color:#522e0f;
+    font-size:2vh ;
+    font-family: Poppins;
+}
+.LoginLink{
+    text-decoration: none;
+    color:#522e0f; 
+    font-size:1.5vw ;
+}
+.body1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-around;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+    margin-left: 5vh;
+}
+.container2{
+    
+    background-image: url("../../../public/assets/05.png");
+    width: 47.92vw;
+    height: 80.19vh;
+    left: 36.07vw;
+    margin-top: 0vh;
+    
+};
+
+.YourVision {
+    
+    overflow: hidden;
+    margin-top: 15.18vh;
+    word-spacing: 1.5vw;
+}
+ .YourVision p{
+    width: 25vw;
+    height: 16.21vh;
+    font-family: Poppins;
+    font-size: 3.36vw;
+    font-weight: 600;
+    line-height: 7vh;
+    letter-spacing: 0em;
+    text-align: left;
+    background-image: linear-gradient(90deg, #c1aba2 0%, #FFFFFF 83.87%);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;    
+    contain: content;
+      
+}
+
+.NewEra {
+    margin-left: 2vw;
+    padding-left: 1vw;
+    width: 20vw;
+    height: 2.9vh;
+    margin-top: 0.1vh;
+    left: 7.06vw;
+    font-family: Work Sans;
+    font-size: 1.5vw;
+    font-weight: 300;
+    line-height: 3.25vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(191, 166, 156, 1);
+    margin: 0.15vw;
+}
+.ShopNow{
+    background: linear-gradient(90deg, #C7B1A9 0%, #FFFFFF 100%);
+    border: none;
+    margin-left: 2vw;
+    border-radius: 0.1vw;
+    width: 8vw;
+    height: 6vh;
+    margin-top: 4vh;
+    border-radius: 1vw;
+    box-shadow: 0.25vw 0.25vw 0.25vw 0 rgba(0, 0, 0, 0.25);   
+    color:#522e0f;
+    font-size:1.2vw ;
+    font-family: Poppins;
+}
+.ShopNowLink{
+    text-decoration: none;
+    color:#522e0f;
+}
+.ShopNow:hover{
+    cursor: pointer;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+
+}
+.Group41{
+    width: 29.64vw;
+    height: 69.04vh;
+    top: 100.63vh;
+    left: 7.05vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 7vw;
+    margin-top: 5vh;
+
+}
+.Safe, .EnergyEfficiency ,.Variety ,.InnovativeDesign{
+    width: 13.60vw;
+    height: 13.60vw; 
+    top: 100.63vh;
+    left: 7.05vw;
+    border-radius: 4px; /* Border-radius remains unchanged */
+    background: linear-gradient(90deg, #231B13 0%, rgba(45, 35, 27, 0.9) 100%);
+    box-shadow: 0px 0.24vw 0.24vw 0px rgba(0, 0, 0, 0.25);
+
+}
+.Safe{
+    /*background-image: url("../../../public/assets/Clip\ path\ group.png");
+    background-repeat: no-repeat;
+    */
+}
+.Safe p,.EnergyEfficiency p,.Variety p,.InnovativeDesign p{
+    width: 8.88vw;
+    height: 1.76vh;
+    top: 117.94vh;
+    left: 11.76vw;
+    font-family: Poppins;
+    font-size: 1.17vw;
+    font-weight: 500;
+    line-height: 1.76vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 13vh;
+    margin-left: 3vw;
+
+}
+.EnergyEfficiency{
+    margin-top: 3vh;
+}
+.Variety{
+    
+}
+.InnovativeDesign{
+    margin-top: 3vh;
+}
+.Group24{
+    width: 32.20vw;
+    height: 37.58vh;
+    margin-top: 20.68vh;
+    margin-left: 20.32vw;
+    display: flex;
+    flex-direction: column;
+}
+.WhyChooseUs{
+    width: 28.11vw;
+    height: 7.99vh;
+    top: 116.68vh;
+    left: 45.32vw;
+    font-family: Poppins;
+    font-size: 3.29vw;
+    font-weight: 600;
+    line-height: 7.99vh;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.Content1{
+    width: 32.20vw;
+    height: 9.57vh;
+    top: 119.38vh;
+    left: 45.32vw;
+    font-family: Work Sans;
+    font-size: 1.41vw;
+    font-weight: 400;
+    line-height: 3.83vh;
+    letter-spacing: -0.00235em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+    
+    margin-top: 4vh;
+}
+.ReadMore{
+    width: 12.29vw;
+    height: 2.48vh;
+    top: 150.59vh;
+    left: 45.32vw;
+    color:  rgba(199, 177, 169, 1);
+    margin-top: 2.5vh;
+    font-family: Work Sans;
+
+    font-size: 1.29vw;
+    font-weight: 400;
+    line-height: 3.83vh;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.ReadMore:hover{
+
+}
+/* Styles for the arrow */
+.lineba{
+    width: 2vw;
+    height: 0.09vh;
+    background-color: rgba(199, 177, 169, 1);
+    margin-top: 2vh; 
+    margin-left: 0.3vw;
+}
+.arrow {
+    margin-top: 1.8vh;
+    width: 0;
+    height: 0;
+    border-top: 0.4vh solid transparent; /* Top side of the arrow (pointed part) */
+    border-bottom: 0.4vh solid transparent; /* Bottom side of the arrow (pointed part) */
+    border-left: 2vw solid  rgba(199, 177, 169, 1) ; /* Color and width of the arrow */
+}
+.body3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-top: 8vh;
+}
+.ProjectsCompleted{
+    width: 32.20vw;
+    height: 16.53vh;
+    
+    top: 187.88vh;
+    left: 7.05vw;
+    font-family: Poppins;
+    font-size: 3.29vw;
+    font-weight: 600;
+    line-height: 7.99vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(67, 45, 35, 1);
+    overflow: hidden;
+}
+.Content1dash{
+    width: 32.20vw;
+    height: 15.57vh;
+    top: 119.38vh;
+    margin-top: 2vh;
+    font-family: Work Sans;
+    font-size: 1.41vw;
+    font-weight: 400;
+    line-height: 3.83vh;
+    letter-spacing: -0.00235em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+    
+    margin-top: 4vh;
+}
+.ReadMoredash{
+    width: 12.29vw;
+    height: 2.48vh;
+    top: 150.59vh;
+    left: 45.32vw;
+    color:  rgba(199, 177, 169, 1);
+    margin-top: 2.5vh;
+    font-family: Work Sans;
+
+    font-size: 1.29vw;
+    font-weight: 400;
+    line-height: 3.83vh;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.ReadMoredash:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.imagescnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 18vw;
+}
+.img1{
+    width: 16.11vw;
+    height: 52.01vh;
+    top: 181.90vh;
+    left: 39.81vw;
+    border: 0.0588vw solid;
+    background-image: url("../../../public/assets/nathalia-rosa-rWMIbqmOxrY-unsplash\ 1.png");
+    background-repeat:no-repeat;
+}
+.img2{
+    margin-top: 8vh;
+    width: 11.76vw;
+    height: 37.78vh;
+    margin-left: 0;
+    padding: 0;
+    top: 184.34vh;
+    left: 60.65vw;
+    border: 0.0588vw solid;
+    
+    background-image: url("../../../public/assets/shot-two-workers-walking-through-large-warehouse-center-observing-racks-with-goods-planing-distribution-market\ 1.png");
+        /* Specify the border color separately */
+
+}
+.img3{
+    margin-top: 8vh;
+    width: 11.76vw;
+    height: 37.78vh;
+    top: 184.34vh;
+    border: 0.0588vw solid;
+    left: 73.39vw;
+    background-image: url("../../../public/assets/3d-rendering-modern-dining-room-living-room-with-luxury-decor\ 1.png");
+}
+.imgh1{
+    font-family: Poppins;
+    font-size: 1.17vw;
+    font-weight: 500;
+    line-height: 1.76vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+.imgh2{
+    font-family: Work Sans;
+    font-size: 0.82vw;
+    font-weight: 300;
+    line-height: 1.18vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+.img1 .imgh1{
+    margin-top: 47vh;
+    margin-left: 5vw;
+}
+.img1 .imgh2{
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+.img2 .imgh1{
+    margin-top: 33vh;
+    margin-left: 4vw;
+}
+.img2 .imgh2{
+    margin-left: 4vw;
+    margin-top: 0.8vh;
+}
+.img3 .imgh1{
+    margin-top: 33vh;
+    margin-left: 4vw;
+}
+.img3 .imgh2{
+    margin-left: 4vw;
+    margin-top: 0.8vh;
+}
+
+.arrowfollow{
+    position: absolute;
+    font-family: Work Sans;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 2.48vh;
+    letter-spacing: 0em;
+    word-spacing: 1vw;
+    text-align: left;
+    color: rgba(199, 177, 169, 1);
+    top: 239.82vh;
+    left: 65.51vw;
+    width: 25vw;
+    cursor: pointer;
+}
+.arrow3{
+    position: absolute;
+    width: 5.18vw;
+    height: 0.02vh;
+    top: 240.82vh;
+    left: 56.51vw;
+    border: 0.0882vw solid rgba(199, 177, 169, 1);
+    transform: rotate(0deg); /* Assuming you meant transform for angle */
+    background: rgba(199, 177, 169, 1); /* Setting the background color separately */
+    
+}
+
+.b4cnt1{
+    width: 42.85vw;
+    height: 30.32vh;
+    top: 243.39vh;
+    left: -7.83vw;
+    margin-left: 4vw;
+    margin-top: 12vh;
+    border-radius: 4px;
+    
+}
+.b4cnt2{
+    width: 32.20vw;
+    height: 18.63vh;
+    top: 264.32vh;
+    left: 45.32vw;
+    border-radius: 4px;
+    margin-left: 7.05vw;
+}
+.box1{
+    position: absolute;
+    width: 6.11vw;
+    height: 6.11vw;
+    top: 250.79vh;
+    left: 6.05vw;
+    border-radius: 4px;
+    transform: rotate(-10deg);
+    background: linear-gradient(90deg, #231B13 0%, rgba(45, 35, 27, 0.9) 100%);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25);
+    z-index: 1;
+
+}
+.Retail{
+    position: absolute;
+    width: 13.17vw;
+    height: 6.48vh;
+    top: 252.79vh;
+    left: 10.75vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    background: rgba(239, 224, 219, 1);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25); /* Convert shadow values to 'vw' */
+    z-index: 0;
+    font-size: 1.41vw;
+    font-weight: 500;
+    line-height: 5vh;
+    letter-spacing: 0em;
+    padding-left: 2vw;
+    color: rgba(67, 45, 35, 1);
+}
+.boxe2{
+    position: absolute;
+    width: 6.11vw;
+    height: 6.11vw;
+    top: 265.59vh;
+    left: 13.65vw;
+    border-radius: 4px;
+    transform: rotate(-10deg);
+    background: linear-gradient(90deg, #231B13 0%, rgba(45, 35, 27, 0.9) 100%);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25);
+    z-index: 1;
+
+}
+.Premium{
+    padding-left: 2vw;
+    position: absolute;
+    width: 13.17vw;
+    height: 6.48vh;
+    top: 267.79vh;
+    left: 18.75vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    background: rgba(239, 224, 219, 1) ;
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25); /* Convert shadow values to 'vw' */
+    z-index: 0;
+    font-size: 1.41vw;
+    font-weight: 500;
+    line-height: 5vh;
+    letter-spacing: 0em;
+    background-image: url("../../../public/assets/Premium\ 1.png") no-repeat;
+    color: rgba(67, 45, 35, 1);
+}
+.box3{
+    position: absolute;
+    background: linear-gradient(90deg, #231B13 0%, rgba(45, 35, 27, 0.9) 100%);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25);
+    width: 6.11vw;
+    height: 6.11vw;
+    top: 284.12vh;
+    left: 9.05vw;
+    border-radius: 4px;
+    transform: rotate(-10deg);
+    z-index: 1;
+}
+.box1img1{
+    z-index: 3;
+    width: 10vw;
+    height: 13vh;
+    background-repeat: no-repeat;
+    margin-left: 1.5vw;
+    background-image: url("../../../public/assets/img3\ 1.png");
+}
+.box2img1{
+    z-index: 3;
+    width: 10vw;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/Premium\ 1.png");
+}
+.box3img1{
+    z-index: 3;
+    width: 10vw;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/Architecture\ 1.png");
+}
+
+
+.Architecture{
+    position: absolute;
+    width: 13.17vw;
+    height: 6.48vh;
+    top: 285.79vh;
+    left: 14.75vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    background: rgba(239, 224, 219, 1);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25); /* Convert shadow values to 'vw' */
+    z-index: 0; 
+    font-family: Poppins;
+    font-size: 1.41vw;
+    font-weight: 700;
+    line-height: 5vh;
+    letter-spacing: 0em;
+    padding-left: 2vw;
+    color: rgba(67, 45, 35, 1);
+
+}
+.Rectangle24{
+    position: absolute;
+    width: 17.17vw;
+    height: 8.11vh;
+    top: 270.09vh;
+    left: -8.70vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    background: rgba(199, 177, 169, 0.8);
+    box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25); /* Convert shadow values to 'vw' */
+
+}
+.Rectangle25{
+    position: absolute;
+    width: 28.32vw;
+    height: 8.83vh;
+    top: 248.87vh;
+    left: -10vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    z-index: -2;
+    border: 0.0588vw solid rgba(230, 213, 206, 1); /* Convert border values to 'vw' */
+
+}
+.Rectangle26{
+    position: absolute;
+    width: 28.32vw;
+    height: 8.83vh;
+    top: 296.87vh;
+    left: -16vw;
+    border-radius: 4px;
+    transform: rotate(-10deg); /* Update the angle with 'transform' */
+    z-index: -1;
+    border: 0.0588vw solid rgba(230, 213, 206, 1); /* Convert border values to 'vw' */
+}
+.b4cnt2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.ShopByCategory{
+    position: absolute;
+    width: 30.06vw;
+    height: 2.48vh;
+    top: 264.32vh;
+    left: 9.32vw;
+    font-family: Poppins;
+    font-size: 3.29vw;
+    font-weight: 600;
+    line-height: 2.48vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(67, 45, 35, 1);
+    margin-left: 50vw;
+    margin-top: 0vh;
+
+}
+
+.Content3{
+    position: absolute;
+    width: 32.20vw;
+    height: 4.71vh;
+    top: 270.32vh;
+    left: 56.32vw;
+    font-family: Work Sans;
+    font-size: 1.41vw;
+    font-weight: 400;
+    line-height: 4vh;
+    letter-spacing: -0.00235em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+
+}
+.ShopNow2{
+position: absolute;
+width: 7vw;
+height: 6vh;
+top: 287.87vh;
+left: 56.32vw;
+border-radius: 0.5vw;
+border: none;
+background: linear-gradient(270deg, rgba(79, 64, 51, 0.9) 0%, #221A13 99.99%, #211912 100%);
+font-family: Poppins;
+font-size: 1.17vw;
+font-weight: 500;
+line-height: 1.76vh;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+word-spacing: 0.5vw;
+box-shadow: 0vw 0.94vw 0.94vw 0vw rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+.body4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.b4h1{
+    width: 35.29vw;
+    height: 2.48vh;
+    top: 338.53vh;
+    margin-top:20vh ;
+    margin-left: 40vw;
+    left: 24.55vw;
+    font-family: Poppins;
+    font-size: 3.29vw;
+    font-weight: 600;
+    line-height: 2.48vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(67, 45, 35, 1);
+      
+}
+.BSPcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.BSP1{
+    width: 14.58vw;
+height: 13.13vw;
+top: 350.47vh;
+left: 29.81vw;
+border-radius: 4px;
+background: rgba(217, 217, 217, 1);
+margin-left: 5vw;
+margin-top: 5vh;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+
+}
+#BSP11{
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/05\ 1.png") ;
+}
+#BSP13{
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/07\ 1.png") ;
+}
+#BSP12{
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/08\ 1.png") ;
+}
+#BSP14{
+    background-repeat: no-repeat;
+    background-image: url("../../../public/assets/06\ 1.png") ;
+}
+.BSPh1{
+    margin-top: 35vh;
+    margin-left: 1.5vw;
+    width: 14.58vw;
+    height: 1.64vh;
+    top: 382.41vh;
+    left: 29.81vw;
+    font-family: Work Sans;
+    font-size: 1.41vw;
+    font-weight: 400;
+    line-height: 1.64vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(100, 80, 64, 1);
+    
+}
+.BSPh2{
+    margin-left: 1.5vw;
+    width: 14.58vw;
+    height: 1.35vh;
+    top: 387.50vh;
+    left: 10.47vw;
+    margin-top: 2vh;
+    font-family: Work Sans;
+    font-size: 1.17vw;
+    font-weight: 300;
+    line-height: 1.35vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+
+}
+.arrowcnt1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.MorePdts{
+    font-family: Work Sans;
+    font-size: 1.17vw;
+    font-weight: 400;
+    line-height: 1.35vh;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 14.41vw;
+    height: 1.35vh;
+    top: 397.24vh;
+    left: 47.32vw;
+    color: rgba(199, 177, 169, 1);
+    margin-top: 14vh;
+    margin-left: 49vw;
+    display: flex;
+
+}
+.arrow4{
+   margin-top: 0.7vh;
+    width: 3.18vw;
+    margin-left: 1vw;
+    height: 0.02vh;
+    top: 240.82vh;
+    left: 56.51vw;
+    border: 0.0882vw solid rgba(199, 177, 169, 1);
+    transform: rotate(0deg); /* Assuming you meant transform for angle */
+    background: rgba(199, 177, 169, 1); /* Setting the background color separately */
+}
+.arrowfollow2{
+    margin-top: 0.5vh;
+    width: 0;
+    height: 0;
+    border-top: 0.4vh solid transparent; /* Top side of the arrow (pointed part) */
+    border-bottom: 0.4vh solid transparent; /* Bottom side of the arrow (pointed part) */
+    border-left: 2vw solid  rgba(199, 177, 169, 1) ; /* Color and width of the arrow */
+}
+
+.Rectangle28{
+    position: absolute;
+    width: 35.32vw;
+    height: 30.83vh;
+    top: 380.87vh;
+    left: -4vw;
+    border-radius: 4px;
+    transform: rotate(0deg); /* Update the angle with 'transform' */
+    z-index: -2;
+    border: 0.0588vw solid rgba(230, 213, 206, 1); /* Convert border values to 'vw' */
+}
+.OurClients{
+    position: absolute;
+    width: 32.20vw;
+    height: 16.53vh;
+    
+    top: 380.88vh;
+    left: 7.05vw;
+    font-family: Poppins;
+    font-size: 3.29vw;
+    font-weight: 600;
+    line-height: 7.99vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(67, 45, 35, 1);
+}
+.Content5{
+    position: absolute;
+    width: 22.20vw;
+    height: 4.71vh;
+    top: 390.32vh;
+    
+    left: 2.32vw;
+    font-family: Work Sans;
+    font-size: 1.41vw;
+    font-weight: 400;
+    line-height: 4vh;
+    letter-spacing: -0.00235em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+}
+
+.text2{
+   
+    font-family: Work Sans;
+    font-size: 1.17vw;
+    font-weight: 400;
+    line-height: 1.35vh;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 14.41vw;
+    height: 1.35vh;
+    top: 397.24vh;
+    left: 47.32vw;
+    color: rgba(199, 177, 169, 1);
+    margin-top: 14vh;
+    margin-left: 49vw;
+    display: flex;
+
+}
+.arrow5{
+   margin-top: 0.7vh;
+    width: 3.18vw;
+    margin-left: 1vw;
+    height: 0.02vh;
+    top: 240.82vh;
+    left: 56.51vw;
+    border: 0.0882vw solid rgba(199, 177, 169, 1);
+    transform: rotate(0deg); /* Assuming you meant transform for angle */
+    background: rgba(199, 177, 169, 1); /* Setting the background color separately */
+}
+.arrowfollow4{
+    margin-top: 0.5vh;
+    width: 0;
+    height: 0;
+    border-top: 0.4vh solid transparent; /* Top side of the arrow (pointed part) */
+    border-bottom: 0.4vh solid transparent; /* Bottom side of the arrow (pointed part) */
+    border-left: 2vw solid  rgba(199, 177, 169, 1) ; /* Color and width of the arrow */
+}
+.footer{
+    width: 100.71vw;
+    height: 75.88vh;
+    top: 169.71vh;
+    margin-top: 60vh;
+    background: linear-gradient(270deg, rgba(79, 64, 51, 0.9) 0%, #221A13 99.99%, #211912 100%);
+    box-shadow: 0vw 0.94vh 0.94vh 0vw rgba(0, 0, 0, 0.25); /* Convert shadow values to 'vw' and 'vh' */
+    display: flex;
+    flex-direction: row;
+}
+.fcnt1{
+    width: 28.82vw;
+    height: 16.88vh;
+    top: 177.94vh;
+    left: 30.35vw;
+    margin-left: 2vw;
+
+}
+.fcnth1{
+    margin-top: 4vh;
+    width: 28.00vw;
+    height: 1.59vh;
+    top: 177.94vh;
+    left: 6.70vw;
+    font-family: Poppins;
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.59vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 2vh;
+
+}
+.fcnth2{
+    width: 18vw;
+    margin-top: 4vh;
+    height: 1.12vh;
+    top: 180.59vh;
+    left: 6.70vw;
+    font-family: Work Sans;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 1.12vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(191, 166, 156, 1);
+
+}
+.fcnt1 .Group9{
+    margin-left: 0vw;
+    margin-top: 4vh;
+}
+
+.fcnt2{
+   margin-left: 6vw; 
+}
+.fcnt3{
+    margin-left: 4vw;
+}
+#address{
+    width: 25vw;
+    line-height: 4vh;
+}
+#workaddress{
+    line-height: 4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
